@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            background: linear-gradient(90deg,skyblue,purple);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        form{
+            height: 80%;
+            width: 30%;
+            background-color: white;
+            border-radius: 10px;
+        }
+        .email,.password,.login{
+          width: 80%;
+          height: 20%;
+          margin: auto;
+          margin-top: 5%;
+        }
+        h1{
+            height:10%;
+            margin-top: 5%;
+        }
+        input{
+            margin-top: 5%;
+            width: 100%;
+            height: 50%;
+            text-align: center;
+        }
+        p{
+            margin-top: 5%;
+        }
+        #login{
+            background: linear-gradient(90deg,skyblue,purple);
+            border: none;
+            border-radius: 10px;
+            color: white;
+        }
+        .password>p{
+            color: gray;
+            font-style: italic;
+        }
+        .login>p{
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+            font-style: italic;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="">
+        <h1 align="center">Log In Form</h1>
+        <div class="email">
+            <label for="">Email</label>
+            <input type="text" placeholder="xyz@gmail.com">
+        </div>
+        <div class="password">
+            <label for="">Password</label>
+            <input type="password" placeholder="abcd@gmail.com">
+            <p>Forget Password ?</p>
+        </div>
+        <div class="login">
+            <input type="button" value="Log In" id="login">
+            <p>Not a Member? <a href="sign up.html">Sign Up</a></p>
+        </div>
+    </form>
+</body>
+</html>

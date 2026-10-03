@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .con{
+            height: 500px;
+            width: 800px;
+            background-color:teal;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            height: 80%;
+            width: 80%;
+            background-color: skyblue;
+        }
+        .box1{
+            height: 60%;
+            width: 65%;
+            background-color: blue;
+            border: 20px solid navy;
+            margin: 20px 20px 20px 40px;
+            padding: 55px 20px 20px 80px;
+        }
+        .box2{
+            height: 80%;
+            width: 80%;
+            text-align: center;
+            line-height: 190px;
+            background-color: orange;
+        }
+        .margin{
+            position: absolute;
+            top: 114px;
+            left: 650px;
+        }
+        .border{
+            position: absolute;
+            top: 135px;
+            left: 650px;
+            color: white;
+        }
+        .padding{
+            position: absolute;
+            top:170px;
+            left: 650px;
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 align="center"> Box Plotting</h1>
+    <div class="con">
+        <div class="box">
+            <p class="margin">Margin</p>
+            <div class="box1">
+                <p class="border">Border</p>
+                <p class="padding">Padding</p>
+                <div class="box2">
+                    <p >Content</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
